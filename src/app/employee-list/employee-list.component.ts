@@ -26,7 +26,6 @@ export class EmployeeListComponent implements OnInit {
   }
   updateEmployee(id: number) {
     console.log("called update employee");
-    
     this.route.navigate(['update-employee', id])
   }
 
